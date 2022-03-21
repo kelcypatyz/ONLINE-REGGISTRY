@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ID Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="stylereg.css" rel="stylesheet" type="text/css">
+</head>
+<main>
+
+    <body>
+        <div class="testbox">
+            <form action="/">
+                <div class="banner">
+                    <h1>ID Application Form</h1>
+                </div>
+                <div class="item">
+                    <p>Name</p>
+                    <div class="name-item">
+                        <input type="text" name="First" placeholder="First" />
+                        <input type="text" name="middle" placeholder="middle" />
+                        <input type="text" name="surname" placeholder="surname" />
+                    </div>
+                </div>
+                <div class="item">
+                    <p>date of birth</p>
+                    <input type="date" name="bdate" required/>
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="item">
+                    <p>Father's name</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Mother's name</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="question">
+                    <p>Martial Status</p>
+                    <div class="question-answer">
+                        <input type="radio" value="none" id="single" name="status" />
+                        <label for="single" class="radio"><span>Single</span></label>
+                        <input type="radio" value="none" id="married" name="status" />
+                        <label for="married" class="radio"><span>Married</span></label>
+                    </div>
+                    <p>if married please fill the husband's space</p> <br>
+                </div>
+                <div class="item">
+                    <p>Husband's name</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Husband's Id</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>County of Birth</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Tribe</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Clan</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>County of Stay</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Sub-county</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Constituency</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Location</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Sub-location</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Village/Estate</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Home Adress</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Occupation</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Phone</p>
+                    <input type="text" name="name" />
+                </div>
+                <div class="item">
+                    <p>Email</p>
+                    <input type="text" name="name" />
+                </div>
+
+
+                <div class="item">
+                    <p>Documents in Support of Application</p>
+                    <p> (1) Birth certificate Number</p>
+                    <input type="text" name="name" />
+                    <p>Please upload a well visible scanned copy of your Birth certificate <br> </p>
+                    <!-- <form action="/">-->
+                    <label for="myfile">select a file"</label>
+                    <input type="file">
+                    <!--id="myfile" Name="myfile"> -->
+                    <br>
+                </div>
+                <div class="item">
+                    <p> (2) Parents Identity Card Number</p>
+                    <input type="text" name="name" />
+                    <p>Please upload a well visible scanned copy of your Parents Identity Card Number <br> </p>
+                    <label for="myfile">select a file"</label>
+                    <input type="file">
+                    <!--id="myfile" Name="myfile"> -->
+                    <br>
+                </div>
+                <div class="item">
+                    <p> (3) Any other Document (ie) <br> a School leaving certificate
+                        <br> b Certificate of baptism <br> c Certificate of confirmation <br> </p>
+                    <p>Please upload well visible scanned copies <br> </p>
+                    <label for="myfile">select a file"</label>
+                    <input type="file">
+                    <!--id="myfile" Name="myfile"> -->
+                    <br>
+                </div>
+
+                <div class="item">
+                    <p>
+                        (I certify that all the information i have given is correct)</p>
+                    <div class="name-item">
+                        <div class="question-answer">
+                            <input type="radio" value="none" id="radio_5" name="smoke" />
+                            <label for="radio_5" class="radio"><span>Yes</span></label>
+                            <input type="radio" value="none" id="radio_6" name="smoke" />
+                            <label for="radio_6" class="radio"><span>No</span></label>
+                        </div>
+                        <input type="text" name="date" placeholder="date" />
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="btn-block">
+                        <button type="submit" href="/">Apply</button>
+                    </div>
+                    <!--<p class="login-register-text">Already have an ID but its lost?. <a href="replace.css">Replace It Here</a></p>-->
+                    <p>Already have an ID but its lost?<a href="replace.html" style="color:rgb(99, 164, 230)">Replace it here</a>.</p>
+            </form>
+            </div>
+    </body>
+</main>
+
+</html>

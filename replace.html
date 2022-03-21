@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ID Replacememt Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="replace.css">
+</head>
+
+<body>
+    <div class="testbox">
+        <form action="/">
+            <div class="banner">
+                <h1>ID Replacement Form </h1>
+            </div>
+
+
+            <div class="item">
+                <p>Personal Details<span class="required">*</span></p>
+                <div class="name-item">
+                    <input type="text" name="name" placeholder="Firstname" required/>
+                    <input type="text" name="name" placeholder="Middlename" required/>
+                    <input type="text" name="name" placeholder="Surname" required/>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="item">
+                    <p>Previous ID Number<span class="required">*</span></p>
+                    <input type="number" name="Previous ID Number" required/>
+                </div>
+                <div class="item">
+                    <p>Phone Number<span class="required">*</span></p>
+                    <input type="number" name="Phone Number" required/>
+                </div>
+                <div class="item">
+                    <p>Email Address<span class="required">*</span></p>
+                    <input type="number" name="Email Address" required/>
+                </div>
+                <div class="item">
+                    <p>A.O.B Number<span class="required">*</span></p>
+                    <input type="number" name="A.O.B Number" required/>
+                </div>
+                <div class="item">
+                    <p>B.C Serial Number<span class="required">*</span></p>
+                    <input type="text" name="B.C Serial Number" required/>
+                </div>
+                <div class="item">
+                    <p>County of birth<span class="required">*</span></p>
+                    <input type="text" name="County of birth" required/>
+                </div>
+            </div>
+            <div class="position-item">
+                <div class="item">
+                    <p> Date of birth<span class="required">*</span></p>
+                    <input type="date" name="bdate" required/>
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+            </div>
+            <div class="item">
+                <label for="cover">Upload your Birth Certificate<span>*</span></label>
+                <input id="cover" type="file" required/>
+            </div>
+            <div class="item">
+                <label for="cover">Upload your passport<span>*</span></label>
+                <input id="cover" type="file" required/>
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="/">Submit Details</button>
+            </div>
+            <p class="login-register-text">Don't Have ID?. <a href="registration.html">Apply It Here</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
